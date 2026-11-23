@@ -23,6 +23,10 @@ The map shows the six steps, the 22 gates between them, who passes each gate (yo
 | 5. Slide assets: figures and tables behind each main question | `qe-slide-assets` | assets CSV and crops |
 | 6. Evidence page for your supervisor | `qe-evidence-page` | the page |
 
+## Before anything goes to your supervisor
+
+Run an automatic check first: [supervisor-agent](https://github.com/FabianRitter/supervisor-agent) by Fabian Ritter Gutierrez simulates supervisor feedback, calibrated on Prof. Chng Eng Siong's six-step thesis writing method. Its `list-of-questions` skill reviews a chapter-by-chapter question list with page budgets, which is what steps 1–2 here produce, for the structural points a supervisor raises: sections that go from broad to narrow, page budgets that add up, an explicit mapping from the literature review to the contribution chapters, and one-clause questions. Use it on the Pass A export before you show it to your supervisor (M1 on the map), and on the finalized list. See its README for setup.
+
 ## What is in this repository
 
 | Path | What it is |
