@@ -48,6 +48,11 @@ Optionally, a complete question list from a peer (used with their permission) ca
 
 Each folder under `skills/` is one skill; keep the folder name as the skill name and keep `kernel.py` at the skill's root.
 
+- **Claude Science**: open **Capabilities → Skills**, click **Add skill**, and choose one of:
+  - **Import from GitHub** — add the skills from this repository (`pengyizhou/qe-thesis-skills`).
+  - **Upload a skill** — zip one folder under `skills/` (for example `skills/qe-references/`, with its `kernel.py` and `references/`) and drop the `.zip`; repeat for each of the four skills. Uploading `SKILL.md` alone would leave out the helper code and reference files.
+
+  After adding them, check that the four `qe-` skills are switched on in the Skills list. If you work with a restricted specialist (such as the question-list coach in `agent-profile/`), attach the skills to it under **Specialists** as well.
 - **Claude Code**: copy the four folders into `~/.claude/skills/` (or a project's `.claude/skills/`).
 - **Other agent workspaces**: give the folders to an agent there and ask it to create each skill from its folder. A restricted agent profile needs each skill attached before it can load it.
 
