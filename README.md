@@ -64,3 +64,7 @@ The `kernel.py` helpers need PyMuPDF (`pymupdf`), Pillow and pandas in the Pytho
 - `qe-references`: helpers tested on a 197-entry bibliography (parsing), a 14-entry metadata sample, and quote matching on real page-marked texts. Not yet run end to end; the sub-agent task texts have not been used as written.
 - `qe-slide-assets`: the automatic crop agreed with 207 hand-reviewed crops within 10 points in 137 cases, within 25 points in 24, was clearly wrong in 40 and found nothing in 6. Every crop still has to be viewed.
 - `qe-evidence-page`: in use for one report.
+
+## License
+
+Released under the NANYANG TECHNOLOGICAL UNIVERSITY - NTUITIVE PTE LTD Dual License Agreement: free for non-commercial use (teaching, academic research, personal experimentation); commercial use needs a separate license. See [`LICENSE`](LICENSE). For a commercial license, contact yizhou004@e.ntu.edu.sg.
