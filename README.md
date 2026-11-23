@@ -27,6 +27,8 @@ The map shows the six steps, the 22 gates between them, who passes each gate (yo
 
 Run an automatic check first: [supervisor-agent](https://github.com/FabianRitter/supervisor-agent) by Fabian Ritter Gutierrez simulates supervisor feedback, calibrated on Prof. Chng Eng Siong's six-step thesis writing method. Its `list-of-questions` skill reviews a chapter-by-chapter question list with page budgets, which is what steps 1–2 here produce, for the structural points a supervisor raises: sections that go from broad to narrow, page budgets that add up, an explicit mapping from the literature review to the contribution chapters, and one-clause questions. Use it on the Pass A export before you show it to your supervisor (M1 on the map), and on the finalized list. See its README for setup.
 
+Where its advice on the literature review differs from `qe-question-list`, follow `qe-question-list`. supervisor-agent asks for research gaps at the end of each literature sub-section and for a history-and-relevance question in every sub-section; here, gap statements belong to chapter 1 and to each task chapter's introduction, and history sits in one evolution sub-section per section of the review.
+
 ## What is in this repository
 
 | Path | What it is |
